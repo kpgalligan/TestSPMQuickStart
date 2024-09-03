@@ -2,7 +2,8 @@ name: KMMBridge Android and iOS Publish
 on:
   workflow_dispatch:
 
-permissions: write-all
+permissions:
+  contents: write
 
 jobs:
   kmmbridgepublish:
